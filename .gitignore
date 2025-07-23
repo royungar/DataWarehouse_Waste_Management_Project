@@ -1,0 +1,25 @@
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore any temporary files or backups
+*.bak
+*.tmp
+*.swp
+*~
+
+# Ignore Postgres-specific dump files (if any were created)
+*.sql~
+
+# Ignore CSVs if user chooses not to track data
+# Uncomment the following if you don’t want to track CSVs:
+# data/*.csv
+
+# Ignore environment or IDE-specific folders
+.env
+.venv/
+.idea/
+.vscode/
+
+# Ignore log files
+*.log
