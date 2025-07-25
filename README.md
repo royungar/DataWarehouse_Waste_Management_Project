@@ -2,8 +2,8 @@
 
 ## Overview
 
-This project demonstrates the design and implementation of a data warehouse for a Brazilian solid waste management company.   
-It was completed as the final project for **Course 9 – Data Warehouse Fundamentals** in the [IBM Data Engineering Professional Certificate](https://www.coursera.org/professional-certificates/ibm-data-engineer).    
+This project demonstrates the design and implementation of a data warehouse for a Brazilian solid waste management company.
+It was completed as the final project for **Course 9 – Data Warehouse Fundamentals** in the [IBM Data Engineering Professional Certificate](https://www.coursera.org/professional-certificates/ibm-data-engineer).
 The project models operational waste collection data using a star schema in PostgreSQL, enabling analytical queries across time, location, and vehicle dimensions.
 
 ---
