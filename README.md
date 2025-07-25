@@ -2,7 +2,9 @@
 
 ## Overview
 
-This project demonstrates the design and implementation of a data warehouse for a Brazilian solid waste management company. It was completed as the final project for **Course 9 – Data Warehouse Fundamentals** in the [IBM Data Engineering Professional Certificate](https://www.coursera.org/professional-certificates/ibm-data-engineer). The project models operational waste collection data using a star schema in PostgreSQL, enabling analytical queries across time, location, and vehicle dimensions.
+This project demonstrates the design and implementation of a data warehouse for a Brazilian solid waste management company.   
+It was completed as the final project for **Course 9 – Data Warehouse Fundamentals** in the [IBM Data Engineering Professional Certificate](https://www.coursera.org/professional-certificates/ibm-data-engineer).    
+The project models operational waste collection data using a star schema in PostgreSQL, enabling analytical queries across time, location, and vehicle dimensions.
 
 ---
 
@@ -111,6 +113,17 @@ Used SQL aggregation clauses for multidimensional reporting:
 ```plaintext
 Waste_Management_DataWarehouse/
 ├── README.md                        # Project overview, schema, SQL tasks, and usage
+├── data/
+│   ├── DimDate.csv                  # Calendar and weekday data
+│   ├── DimTruck.csv                 # Truck type identifiers
+│   ├── DimStation.csv               # Station and city mapping
+│   └── FactTrips.csv                # Waste collection fact data
+├── images/                          # Screenshots showing schema, queries, and output
+│   ├── schema_erd.png               # ERD showing all 5 tables and relationships
+│   ├── grouping_sets_query.png      # GROUPING SETS query output
+│   ├── rollup_query.png             # ROLLUP query output
+│   ├── cube_query.png               # CUBE query output
+│   └── mview_creation.png           # Materialized view creation confirmation
 ├── sql/
 │   ├── schema/                      # CREATE TABLE scripts for all dimension and fact tables
 │   │   ├── DimDate.sql              # Creates DimDate table
@@ -124,17 +137,6 @@ Waste_Management_DataWarehouse/
 │   │   └── cube.sql                 # Computes average waste across all dimensions
 │   └── materialized_views/          # Materialized view creation script
 │       └── max_waste_stats.sql      # Computes max waste by city, station, and truck
-├── data/
-│   ├── DimDate.csv                  # Calendar and weekday data
-│   ├── DimTruck.csv                 # Truck type identifiers
-│   ├── DimStation.csv               # Station and city mapping
-│   └── FactTrips.csv                # Waste collection fact data
-├── images/                          # Screenshots showing schema, queries, and output
-│   ├── schema_erd.png               # ERD showing all 5 tables and relationships
-│   ├── grouping_sets_query.png      # GROUPING SETS query output
-│   ├── rollup_query.png             # ROLLUP query output
-│   ├── cube_query.png               # CUBE query output
-│   └── mview_creation.png           # Materialized view creation confirmation
 ```
 
 ---
@@ -145,5 +147,6 @@ This project was completed as part of the IBM Data Engineering Professional Cert
 
 ## Links
 
-Data Warehouse Fundamentals - (https://www.coursera.org/learn/data-warehouse-fundamentals)
-GitHub Repository - (https://github.com/royungar)
+- Course Page - [Data Warehouse Fundamentals](https://www.coursera.org/learn/data-warehouse-fundamentals)
+- [GitHub Profile](https://github.com/royungar)
+- [GitHub Repository](https://github.com/royungar/Waste_Management_DataWarehouse_Project)
