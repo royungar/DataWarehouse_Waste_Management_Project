@@ -1,10 +1,11 @@
-# Solid Waste Management Data Warehouse Project – IBM Data Engineering Professional Certificate
+# Data Warehouse – Solid Waste Management Project – IBM Data Engineering Professional Certificate
 
 ## Overview
 
 This project demonstrates the design and implementation of a data warehouse for a Brazilian solid waste management company.
-It was completed as the final project for **Course 9 – Data Warehouse Fundamentals** in the [IBM Data Engineering Professional Certificate](https://www.coursera.org/professional-certificates/ibm-data-engineer).
+This warehouse supports waste collection performance analysis across time, geography, and vehicle dimensions.
 The project models operational waste collection data using a star schema in PostgreSQL, enabling analytical queries across time, location, and vehicle dimensions.
+It was completed as the final project for **Course 9 – Data Warehouse Fundamentals** in the [IBM Data Engineering Professional Certificate](https://www.coursera.org/professional-certificates/ibm-data-engineer).
 
 ---
 
@@ -149,4 +150,4 @@ This project was completed as part of the IBM Data Engineering Professional Cert
 
 - Course Page - [Data Warehouse Fundamentals](https://www.coursera.org/learn/data-warehouse-fundamentals)
 - [GitHub Profile](https://github.com/royungar)
-- [GitHub Repository](https://github.com/royungar/Waste_Management_DataWarehouse_Project)
+- [GitHub Repository](https://github.com/royungar/DataWarehouse_Waste_Management_Project)
