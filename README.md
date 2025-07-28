@@ -112,7 +112,7 @@ Used SQL aggregation clauses for multidimensional reporting:
 ## Repository Structure
 
 ```plaintext
-Waste_Management_DataWarehouse/
+DataWarehouse_Waste_Management_Project/
 ├── README.md                        # Project overview, schema, SQL tasks, and usage
 ├── data/
 │   ├── DimDate.csv                  # Calendar and weekday data
